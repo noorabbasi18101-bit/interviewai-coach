@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-display {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+body {
+  background-color: #faf9ff;
+  color: #1a1b20;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(205, 180, 255, 0.15);
+}
+
+.primary-gradient {
+  background: linear-gradient(135deg, #cdb4ff 0%, #bee1ff 100%);
+}
+
+.primary-gradient-btn {
+  background: linear-gradient(135deg, #cdb4ff 0%, #bee1ff 100%);
+  box-shadow: 0 4px 15px rgba(205, 180, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+.primary-gradient-btn:hover {
+  box-shadow: 0 8px 25px rgba(205, 180, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, #685296 0%, #40627b 100%);
+  box-shadow: 0 4px 15px rgba(104, 82, 150, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(104, 82, 150, 0.3);
+}
+
+.option-selected {
+  border-color: #685296 !important;
+  background-color: rgba(205, 180, 255, 0.25) !important;
+}
+
+.floating {
+  animation: floating 6s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-16px); }
+  100% { transform: translateY(0px); }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(104, 82, 150, 0.15);
+  border-radius: 10px;
+}
+
