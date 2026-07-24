@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# InterviewAI Coach
 
-# Run and deploy your AI Studio app
+## Overview
+InterviewAI Coach is an AI-powered interview preparation application built to help users practice interviews, improve their answers, and gain confidence through AI-based feedback.
 
-This contains everything you need to run your app locally.
+## Features
+- AI-powered interview practice
+- Question and answer evaluation
+- Instant feedback and suggestions
+- User-friendly interface
+- Smart interview coaching experience
 
-View your app in AI Studio: https://ai.studio/apps/16b07a36-5f9f-4d4c-8a13-9d1465eefd97
+## Technology Stack
+- Google AI Studio
+- AI-powered APIs
+- Modern Web Technologies
 
-## Run Locally
+## Purpose
+The goal of InterviewAI Coach is to provide an interactive platform where users can prepare for interviews and improve their communication skills with the help of artificial intelligence.
 
-**Prerequisites:**  Node.js
+## Future Improvements
+- User accounts and progress tracking
+- More interview categories
+- Advanced performance analytics
 
+## Disclaimer
+This application is an AI assistant for learning and practice purposes. It does not guarantee interview results.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Created By
+Noor un Nisa
