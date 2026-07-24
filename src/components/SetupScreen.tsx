@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Screen, InterviewType, ExperienceLevel, InterviewSessionConfig, Question } from '../types';
+import candidateImage from '../assets/images/interview_candidate_1784844869660.jpg';
 
 interface SetupScreenProps {
   onNavigate: (screen: Screen) => void;
@@ -128,7 +129,7 @@ export const SetupScreen: React.FC<SetupScreenProps> = ({
               <img
                 alt="Professional job candidate prepared for interview"
                 className="w-auto h-72 sm:h-80 max-w-full rounded-xl object-contain mx-auto transition-transform duration-300 hover:scale-105"
-                src="/src/assets/images/interview_candidate_1784844869660.jpg"
+                src=src={candidateImage}
                 referrerPolicy="no-referrer"
               />
             </div>
