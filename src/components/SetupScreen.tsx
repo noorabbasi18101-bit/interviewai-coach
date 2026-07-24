@@ -93,24 +93,30 @@ export const SetupScreen: React.FC<SetupScreenProps> = ({
     <div className="min-h-screen bg-[#faf9ff] text-[#1a1b20] font-body flex flex-col">
       {/* Top Header */}
       <header className="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-white/50 shadow-[0_8px_32px_0_rgba(205,180,255,0.2)]">
-        <div className="flex justify-between items-center px-4 md:px-10 py-4 max-w-[1200px] mx-auto">
-          <div
-            className="flex items-center gap-3 cursor-pointer"
-            onClick={() => onNavigate('home')}
-          >
-            <img
-              alt="InterviewAI Coach Logo"
-              className="h-10 w-auto"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiBwkBAU4BU8DL7ShHLCaae-6IE_Y98ucbo7ZQwKIKBOiyyP5FpoDtB9n_dH1LtDJu0sKWMHFfobae47lr-tM_LBPwnMskVcnoDf1WRP04GRuUvkmR9y7rc-Rm9YfEH84aFXR8lKbzQqRdwGlsGFhsKIKLRSPm1_0UdpkTpT8gXl1YrV_zsPZmuhV_H9uhOdtn3mnW3TrjivUlZvkXNXdOcSNoIrNopRkIqEcXIZK0CIjHwrwe8N5rPpWSdtkyb4GnBCgHDBd3U8Y"
-            />
-            <span className="font-display font-bold text-2xl md:text-3xl tracking-tight bg-gradient-to-r from-[#685296] to-[#40627b] bg-clip-text text-transparent">
-              InterviewAI Coach
-            </span>
-          </div>
-        </div>
-      </header>
+           <div className="flex justify-between items-center px-4 md:px-10 py-4 max-w-[1200px] mx-auto">
+  <div
+    className="flex items-center gap-3 cursor-pointer"
+    onClick={() => onNavigate('home')}
+  >
+    <img
+      alt="InterviewAI Coach Logo"
+      className="h-10 w-auto"
+      src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiBwkBAU4BU8DL7ShHLCaae-6IE_Y98ucbo7ZQwKIKBOiyyP5FpoDtB9n_dH1LtDJu0sKWMHFfobae47lr-tM_LBPwnMskVcnoDf1WRP04GRuUvkmR9y7rc-Rm9YfEH84aFXR8lKbzQqRdwGlsGFhsKIKLRSPm1_0UdpkTpT8gXl1YrV_zsPZmuhV_H9uhOdtn3mnW3TrjivUlZvkXNXdOcSNoIrNopRkIqEcXIZK0CIjHwrwe8N5rPpWSdtkyb4GnBCgHDBd3U8Y"
+    />
+    <span className="font-display font-bold text-2xl md:text-3xl tracking-tight bg-gradient-to-r from-[#685296] to-[#40627b] bg-clip-text text-transparent">
+      InterviewAI Coach
+    </span>
+  </div>
 
-      {/* Main Content */}
+  <buttonss
+    onClick={() => onNavigate('home')}
+    className="text-[#685296] font-bold text-lg"
+  >
+    Home
+  </button>
+</div>
+
+  {/* Main Content */}
       <main className="pt-28 pb-36 px-4 md:px-0 flex-1">
         <div className="max-w-3xl mx-auto space-y-10">
           {/* Page Title */}
