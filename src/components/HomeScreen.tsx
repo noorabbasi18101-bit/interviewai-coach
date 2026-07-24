@@ -1,7 +1,7 @@
 import React from 'react';
 import { Screen, InterviewType } from '../types';
-
-interface HomeScreenProps {
+import candidateImage from '../assets/images/interview_candidate_1784844869660.jpg';
+ interface HomeScreenProps {
   onNavigate: (screen: Screen) => void;
   onSelectType?: (type: InterviewType) => void;
 }
@@ -103,11 +103,11 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onNavigate, onSelectType
           <div className="relative z-10 flex justify-center items-center">
             <div className="floating relative w-full max-w-[480px]">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#685296]/20 to-[#40627b]/20 rounded-[40px] blur-3xl opacity-40" />
-              <img
-                className="w-full h-auto drop-shadow-2xl rounded-2xl relative z-10 object-cover"
-                alt="AI Interview Coaching graphic"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFsLG63Z744Kpw8wF6hm3Y_ShqcentXhqUYs55T4ACO6aykOdRNHiGhQuxGaKetaEiFr_4TB1eJVZf4TSThDIlUvXqM2X0xLzuxFmI4RpN4058ZmuMtYGfahGdWaBKsFSEa6XFl9Jd4SZ0KeEajOUBtLxCZYOV5UXSzYk8I0oFLIoXenzyz8kHbtoMl77CwgEt-P6iOmavwz_uqGkXbUTZCoYaWXmuG1nt_gUqd4z7IwgRUCbBIXatn6zUeThDIzWMZlITbOaOXV4"
-              />
+             <img
+  className="w-full h-auto drop-shadow-2xl rounded-2xl relative z-10 object-cover"
+  alt="AI Interview Candidate"
+  src={candidateImage}
+/>
 
               {/* Floating Glass Stats Card */}
               <div className="absolute -bottom-6 -left-6 glass-card p-4 shadow-xl rounded-xl hidden sm:flex items-center gap-3 z-20">
