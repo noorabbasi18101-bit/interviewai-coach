@@ -129,7 +129,7 @@ export const SetupScreen: React.FC<SetupScreenProps> = ({
               <img
                 alt="Professional job candidate prepared for interview"
                 className="w-auto h-72 sm:h-80 max-w-full rounded-xl object-contain mx-auto transition-transform duration-300 hover:scale-105"
-                src=src={candidateImage}
+                src={candidateImage}
                 referrerPolicy="no-referrer"
               />
             </div>
