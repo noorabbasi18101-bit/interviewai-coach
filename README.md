@@ -12,7 +12,7 @@ Many candidates struggle with interview preparation, confidence, and identifying
 
 Live Application
 
-Live URL: https://vercel.com/noorvercel/interviewai-coach
+Live URL:https://interviewai-coach-six.vercel.app/
 
 Features
 
@@ -67,11 +67,18 @@ Open: "http://localhost:3000"
 
 Screenshots
 
-Add at least 3 screenshots:
-
+ screenshots:
 - Home Page
-- AI Interview Chat
+- <img width="702" height="1600" alt="HOME PAGE " src="https://github.com/user-attachments/assets/17b180b1-5d27-47c0-9220-9b87489e19db" />
+
+Interview Setup
+<img width="702" height="1600" alt="INTERVIEW SETUP" src="https://github.com/user-attachments/assets/63e1fa6f-6587-4d65-ae06-26983bc9cb33" />
+
+- AI Practice
+<img width="702" height="1600" alt="ai practice" src="https://github.com/user-attachments/assets/e19f8f7c-a79f-4c89-a2ef-2ea37852c5ff" />
+
 - Feedback Page
+<img width="702" height="1600" alt="feedback result" src="https://github.com/user-attachments/assets/6a635db3-080c-4b35-be11-9c3a0f767bdb" />
 
 Future Improvements
 
