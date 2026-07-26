@@ -59,7 +59,7 @@ GEMINI_API_KEY=your_api_key_here
 
 Local Setup
 
-git clone <repository-url>
+git clone https://github.com/noorabbasi18101-bit/interviewai-coach.git
 npm install
 npm run dev
 
